@@ -1,12 +1,12 @@
 const Discord = require("discord.js");
   const bot = new Discord.Client();
       bot.on('ready', () => {
-        bot.user.setGame(`ArabGN.com`,'https://www.twitch.tv/ArabGN');
+        bot.user.setGame(`d.`,'d. ☆ Brn#0002');
           console.log('Im Ready!');
   
         });
 
-  bot.on('message', message => {
+  bot.on('message', message => { d. ☆ Brn#0002 Was Here
     if (message.content.split(' ')[0] == '/b')
        message.guild.members.forEach( member => {
          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
